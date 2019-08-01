@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9ea">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MeusPets"
+            android:textColor="#1e354d"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="190dp"
+            android:layout_marginLeft="1dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/img_addanimal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ico_pata_mais"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"/>
+
+    </FrameLayout>
+
+
+    <ListView
+        android:id="@+id/lv_animais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="7dp">
+
+    </ListView>
+
+
+
+</LinearLayout>

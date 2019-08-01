@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9ea"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:gravity="left">
+
+        <ImageView
+            android:id="@+id/iv_animal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:id="@+id/tv_NomeAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="80dp"
+            android:textColor="#1d344d"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="2dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_NomeVacina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Leishmune"
+            android:textColor="#1e354d"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbDescricao"
+                android:textColor="#1d344d"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/edtDescVacina"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#1d344d"
+                android:textSize="16sp"
+                android:maxLength="25"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbLote"
+                android:textColor="#1d344d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginRight="155dp"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbFabricacao"
+                android:textColor="#1d344d"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/edtLoteVacina"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#1d344d"
+                android:textSize="16sp"
+                android:maxLength="25"
+                android:layout_marginRight="15dp"/>
+
+
+            <EditText
+                android:id="@+id/edtFabricacaoVacina"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#1d344d"
+                android:textSize="16sp"
+                android:maxLength="25"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Data Vencimento:"
+                android:textColor="#1d344c"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Peso:"
+                android:textColor="#1d344c"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtDataVencimentoVacina"
+                    android:layout_width="167dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="15dp"/>
+
+                <EditText
+                    android:id="@+id/edtPesoVacina"
+                    android:layout_width="167dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proprietário:"
+                    android:textColor="#1d344d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edtProprietarioVacina"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veterinário:"
+                    android:textColor="#1d344d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edtVeterinarioVacina"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

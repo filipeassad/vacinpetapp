@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Vacinpet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Vacina">Vacina</string>
+    <string name="Data">Data</string>
+    <string name="Proxima">Próxima</string>
+    <string name="Vacinpet">VacinPet</string>
+    <string name="Vermifogo">Vermífugo</string>
+    <string name="Bemvindo">Bem-vindo</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Vacinacao">Vacinação</string>
+    <string name="Proprietarios">Proprietários</string>
+    <string name="Endereco">Enderenço</string>
+    <string name="Vermifugacao">Vermifugação</string>
+    <string name="MeusPets">Meus Pets</string>
+    <string name="CadastroProprietario">Cadastro Proprietário</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="PerfilUsuario">Perfil Usuário</string>
+
+
+    <string name="lbLogin">Login:</string>
+    <string name="lbSenha">Senha:</string>
+    <string name="lbNome">Nome:</string>
+    <string name="lbDataNascimento">Data de Nascimento:</string>
+    <string name="lbSexo">Sexo:</string>
+    <string name="lbRaca">Raça:</string>
+    <string name="lbPelagem">Pelagem:</string>
+    <string name="lbDescricao">Descrição:</string>
+    <string name="lbLote">Lote:</string>
+    <string name="lbFabricacao">Fabricação:</string>
+    <string name="lbVencimento">Vencimento:</string>
+    <string name="lbPeso">Peso:</string>
+    <string name="lbProprietario">Proprietário:</string>
+    <string name="lbVeterinario">Veterinário:</string>
+    <string name="lbCep">CEP:</string>
+    <string name="lbBairro">Bairro:</string>
+    <string name="lbRua">Rua:</string>
+    <string name="lbComplemento">Complemento:</string>
+    <string name="lbNumero">Número:</string>
+    <string name="lbTelefone">Telefone:</string>
+    <string name="lbCelular">Celular:</string>
+    <string name="lbEmail">E-mail:</string>
+    <string name="lbCPF">CPF:</string>
+    <string name="lbEstadoCRMV">Estado CRMV:</string>
+    <string name="lbNumeroCRMV">Número CRMV:</string>
+    <string name="lbPet">Pet:</string>
+    <string name="lbVacina">Vacina:</string>
+    <string name="lbVermifugo">Vermífugo:</string>
+    <string name="lbDataDaProximaVacina">Data da Próxima Vacina:</string>
+
+
+    <string name="btnEntrar">ENTRAR</string>
+    <string name="btnCadastrar">CADASTRAR</string>
+
+
+    <string name="Nanda">Nanda</string>
+    <string name="FilipeAssadBarauna">Filipe Assad Baraúna</string>
+    <string name="BemvindoaoVacinPet">Bem-vindo ao VacinPet</string>
+    <string name="Leishmune">Leishmune/Churupitas</string>
+    <string name="dialog_excluir">DESEJA EXCLUIR SEU PET?</string>
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9ea"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:id="@+id/ivImgAnimal"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ico_perfil" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1d344d"
+                    android:layout_marginLeft="80dp"
+                    android:layout_gravity="center|left"
+                    android:textSize="16sp"
+                    android:text="@string/Cadastro"
+                    android:textStyle="bold"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbNome"
+                    android:textColor="#1d344d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/edtNomeAnimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp"
+                    android:maxLength="25"/>
+
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbDataNascimento"
+                    android:textColor="#1d344d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="1dp">
+
+                    <EditText
+                        android:id="@+id/edt_dataAnimal"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="left"
+                        android:textColor="#1d344d"
+                        android:textSize="16sp"
+                        android:editable="false" />
+
+                    <ImageView
+                        android:id="@+id/iv_calendario"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ico_calendar"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbSexo"
+                    android:textColor="#1d344d"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/spn_sexoAnimal"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                </Spinner>
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/lbRaca"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/edt_racaAnimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp"
+                    android:layout_marginTop="1dp" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/lbPelagem"
+                    android:textColor="#1d344d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#1d344d"
+                    android:textSize="16sp">
+                </Spinner>
+
+                <Button
+                    android:id="@+id/btnCadastrar"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_botoes"
+                    android:text="@string/btnCadastrar"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

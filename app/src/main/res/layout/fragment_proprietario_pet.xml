@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9ea">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="left"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/iv_animal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txtNomeAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#1d344c"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Proprietarios"
+            android:textColor="#1d344d"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="190dp"
+            android:layout_marginLeft="1dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/ivIncluir"
+            android:layout_width="25dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ico_add_proprietario"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="15dp"/>
+
+
+    </FrameLayout>
+
+
+
+    <ListView
+        android:id="@+id/lv_proprietarios"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="7dp">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/iv_animal"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center|left"/>
+
+    <TextView
+        android:id="@+id/tv_NomeAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#1e354d"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center|left"
+        android:shadowColor="#7F000000" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ico_vacinacao"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ico_vermifugacao"/>
+
+    <ImageView
+        android:id="@+id/iv_bolinhaVacina"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ico_bolinha_verde"/>
+
+    <ImageView
+        android:id="@+id/iv_bolinhaComprimido"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="05dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ico_bolinha_amarela"/>
+
+    <TextView
+        android:id="@+id/tv_qtdVacina"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="bottom|right"
+        android:gravity="center"
+        android:text="12"/>
+
+    <TextView
+        android:id="@+id/tv_qtdComprimido"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="05dp"
+        android:layout_gravity="bottom|right"
+        android:gravity="center"
+        android:text="2"/>
+
+</FrameLayout>
